@@ -16,6 +16,6 @@ The Elastic Beanstalk provides an efficient platform to deploy the web applicati
 `eb open`  
 + Terminate the Environment.  
 `eb terminate {your-env-name}`
-4. Follow this [website]() to add the EB to the Code Pipepline. 
+4. Follow this [website]() to add the EB to the Code Pipepline for the continuous delivery of the application. 
 ## Reference 
 1. [Image](https://dev.to/frosnerd/deploying-an-http-api-on-aws-using-elastic-beanstalk-5dh7)
