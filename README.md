@@ -9,7 +9,7 @@ This flask application says "hello" to the user. The source code is included in 
 1. Install and Configure the Elastic Beanstalk Comand Line Interface (EB CLI) through [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html). 
 2. After the installation and configuration is Done. Clone the repository and unzip it. Change the working directory to the unzipped file.
 3. Use the following command to create EB environment, open the flask application, and terminate EB environemt after completing using the application.  
-+ Create an environment on EB. You can determine the name. Note that this process might take a long time since EB will create a list of necessary components to do the computation, security, load balance, and etc.  
++ Create an environment on EB. You can determine the name. Note that this process might take a long time since EB will create a list of necessary components to do the computation, security, load balance, and etc. It will create an Amazon EC2 instance, a security group, an Auto Scaling group, an Amazon S3 bucket, Amazon CloudWatch alarms, and a domain name for your application. 
 `eb create {your-env-name}`  
 + Open the deployed Flask Application.  
 `eb open`  
