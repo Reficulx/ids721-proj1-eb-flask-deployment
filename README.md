@@ -1,4 +1,4 @@
-# ids721-proj1-eb-flask-deployment
+# Flask Application Deployment
 This repository deploys a simple flask application on AWS Elastic Beanstalk platform. 
 ![image](img/EB.png)
 
