@@ -2,7 +2,9 @@
 This repository deploys a simple flask application on AWS Elastic Beanstalk platform. 
 ![image](img/EB.png)
 
-The working structure of the Elastic Beanstalk is shown above. The reference for this image is shown in the Reference section. 
+The working structure of the Elastic Beanstalk is shown above. The reference for this image is shown in the Reference section.  
+This flask application says "hello" to the user. The source code is included in the `application.py` file and by adding `\username` to the end of the application url once the application is opend, the application says `hello` to that specific username. The following implementation shows how to create Elastic Beanstalk environment, how to open the application, and how to terminate the environment using Elastic Beastalk Command Line Interface (EB CLI). The same procedure could be done using the AWS management console and the Elastic Beanstalk Console, but the EB CLT method is more convenient to show and use in practices.  
+
 ## Implementation 
 1. Install and Configure the Elastic Beanstalk Comand Line Interface (EB CLI) through [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html). 
 2. After the installation and configuration is Done. Clone the repository and unzip it. Change the working directory to the unzipped file.
