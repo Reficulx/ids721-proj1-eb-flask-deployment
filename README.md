@@ -1,6 +1,6 @@
 # ids721-proj1-eb-flask-deployment
 This repository deploys a simple flask application on AWS Elastic Beanstalk platform. 
-![image]("img/EB.png")
+![image](img/EB.png)
 The working structure of the Elastic Beanstalk is shown above. The reference for this image is shown in the Reference section. 
 ## Implementation 
 1. Install and Configure the Elastic Beanstalk Comand Line Interface (EB CLI) through [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html). 
